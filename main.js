@@ -7,15 +7,16 @@ $(document).ready(function () {
         const inputnomeTarefa = $('#nova-tarefa').val();
         const novaTarefa = $('<li ></li>');
 
-        $(novaTarefa).html(inputnomeTarefa)  ;
-        $(novaTarefa).appendTo("ol");
+            $(novaTarefa).html(inputnomeTarefa)  ;
+            $(novaTarefa).appendTo("ol");
 
-        $('#nova-tarefa').val('');
-
-        $(novaTarefa).click(function () {
-
-            $("li").css("text-decoration", "line-through");
-
-        })
+                $('#nova-tarefa').val('');
+        
+                $(novaTarefa).click(function () {
+    
+                    $("li").css("text-decoration", "line-through");
+                })
     })
-})
+    })
+
+
